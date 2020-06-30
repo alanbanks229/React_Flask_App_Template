@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+// Whenever you want to run the updated html just do
+// npm run build
+// drawbacks no hot reload, of built in debug server
 
 function App() {
   return (
@@ -18,6 +21,7 @@ function App() {
         >
           Learn React
         </a>
+        <p>My Token = {window.token}</p>
       </header>
     </div>
   );
